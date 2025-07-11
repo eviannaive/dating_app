@@ -1,4 +1,13 @@
 # AI 戀愛交友應用程式
+使用 gemini cli 產出
+#### 生成概述檔
+```
+gemini generate -m gemini-pro --file prompt.txt --output dating_app_overview.md
+```
+#### 針對程式碼調整
+```
+gemini prompter -m gemini-pro --content "根據我的交友 App 需求文件，將xxxx調整為xxxx...。"
+```
 
 ## 專案概述
 
